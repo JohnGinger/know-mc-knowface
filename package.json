@@ -1,0 +1,26 @@
+{
+  "name": "know-mc-knowface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "npm run-script build && firebase deploy"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.33.0",
+    "@blueprintjs/icons": "^3.22.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}

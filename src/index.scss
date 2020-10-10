@@ -1,0 +1,34 @@
+body {
+  font-family: "Chelsea Market", cursive;
+}
+
+info-card .bp3-card {
+  display: grid;
+  row-gap: 8px;
+}
+
+search-box {
+  margin-bottom: 1em;
+  display: block;
+}
+
+.spinner {
+  padding: 4em;
+}
+
+nugget-holder {
+  margin: 1em;
+  font-size: x-small;
+  border: 1px solid lightblue;
+  display: block;
+  padding: 1em;
+}
+
+settings-container {
+  padding: 0.5em;
+  display: grid;
+  grid-row-gap: 8px;
+  input {
+    margin-left: 1em;
+  }
+}
